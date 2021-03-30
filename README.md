@@ -48,15 +48,26 @@ cd client & npm install
 
 
 ## Choose your  Server   
-The server  2 modes the 
+The server has 2 modes the 
 
 - <b> client </b> 
-- npm run client 
+
+```
+ npm run client 
+``
 
 
 - <b> backend </b> 
+
+```
 - npm run server
+``
+
+- or
+
+``
 - npm run start
+``
 
 
 ### testing the whole application
@@ -74,7 +85,7 @@ npm run debug
 
 
 ```
-Start either one of these server for backend production development 
+ Either starts server for backend production development 
 npm start || npm server
 ```
 
