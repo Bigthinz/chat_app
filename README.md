@@ -1,6 +1,6 @@
 # Messenger Chat App
 
-API and backend with node.js for frictional web app (messenger chat app). 
+ frictional web app (messenger chat app). 
 
 ## Project Structure
  
@@ -48,26 +48,15 @@ cd client & npm install
 
 
 ## Choose your  Server   
-The server has 2 modes the 
+The server has 2 modes 
 
 - <b> client </b> 
-
-```
- npm run client 
-``
+- npm run client 
 
 
 - <b> backend </b> 
-
-```
 - npm run server
-``
-
-- or
-
-``
 - npm run start
-``
 
 
 ### testing the whole application
