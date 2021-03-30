@@ -31,6 +31,9 @@ Check the .gitignore file to see all the files and folders that will be ignore b
 
 
 
+
+
+
 ## Project setup backend
 
 ```
@@ -45,6 +48,12 @@ npm install
 cd client & npm install
 ```
 
+
+## Run both frontend and backend concurrently
+
+```
+npm run dev
+```
 
 
 ## Choose your  Server   
