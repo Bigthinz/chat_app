@@ -1,0 +1,4 @@
+mongodb:
+  mongodb_url:
+   - type: legacy_api_password
+     api_password: !secret http_password

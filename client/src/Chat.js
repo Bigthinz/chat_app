@@ -19,7 +19,7 @@ function Chat({messages}) {
             message: input,
             name: "sing",
             timestamp: "null",
-            recieved: true
+            received: true
         })
 
         setInput('')
@@ -76,6 +76,7 @@ function Chat({messages}) {
             </div>
 
         </div>
+
     )
 }
 

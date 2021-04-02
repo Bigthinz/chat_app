@@ -14,7 +14,7 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar__header'>
-                <Avatar/>
+                <Avatar src='https://unsplash.com/photos/mEZ3PoFGs_k'/>
                 <div className='sidebar__headerRight'>
                      <IconButton>
                         <DonutLargeIcon />

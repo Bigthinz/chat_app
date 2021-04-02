@@ -33,10 +33,10 @@ function App(){
     });
 
 
-    return( ()=>{
+    return ()=>{
       channel.unbind_all()
       channel.unsubscribe()
-    })
+    }
 
   },[messages])
 
@@ -49,7 +49,7 @@ function App(){
       <Sidebar />
 
        {/* chat component*/} 
-       <Chat messages = {messages} />
+       <Chat messages={messages}/>
 
 
       </div>
