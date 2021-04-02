@@ -10,7 +10,8 @@ import{ SearchOutlined } from '@material-ui/icons';
 import SidebarChat from './SidebarChat'
 
 
-function Sidebar() {
+function Sidebar({messages}) {
+   
     return (
         <div className='sidebar'>
             <div className='sidebar__header'>
@@ -37,9 +38,10 @@ function Sidebar() {
             </div>
 
             <div className='sidebar__chats'>
+                 <SidebarChat messages={messages}/>
                  <SidebarChat/>
                  <SidebarChat/>
-                 <SidebarChat/>
+                
             </div>
 
         </div>

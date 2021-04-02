@@ -13,7 +13,7 @@ RUN yarn install
 COPY . .
 
 RUN yarn build
-# ---------------
+# ---------------[]
 
 FROM node:10-alpine
 
